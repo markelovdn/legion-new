@@ -26,5 +26,7 @@
 @foreach($users as $key => $user)
     <ul><a href="sportsmen.png?id={{$user->id}}">{{$user->name}} {{$user->email}}</a></ul>
     @endforeach
+@foreach()
+@endforeach
 </body>
 </html>
